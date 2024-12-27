@@ -16,5 +16,5 @@ const peticionApi = async() => {
     imgPokemon.src =imgCharmander;
 }
 
-peticionApi();
+await peticionApi();
 
